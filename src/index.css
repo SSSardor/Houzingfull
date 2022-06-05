@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300&family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* margin: 20px 20px 20px  40px; */
+    align-items: center;
+    padding: 0 5%;
+}
+.img{
+    width: 100%;
+}
+.card{
+    position: relative;
+    /* margin: 20px 20px; */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 30%;
+    border: 1px solid #E6E9EC;
+    border-radius: 3px;
+    
+}
+h1{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color:  #0D263B;
+    margin-top: 0;
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 0;
+    color: #696969;
+}
+span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #696969;
+}
+del{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration-line: line-through;
+    color: #696969;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D263B;
+    margin-bottom: 0;
+    margin-top:0 ;
+}
+.prise{
+    padding: 8px 20px 8px 20px;
+}
+.btn1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 0;
+    
+    font-family: 'Cerebri Sans';
+    background: #0061DF;
+    border-radius: 3px 4px 6px 8px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    padding: 5px 12px;
+    gap: 10px;
+}
+.btn2{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    
+    font-family: 'Cerebri Sans';
+    align-items: center;
+    border-radius: 3px 4px 6px 8px;
+    background: #0D263B;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 12px;
+    gap: 10px;
+}
+.span{
+    color: #ffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.pos__a{
+    position: relative;
+}
+.ellipse{
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    right: 30px;
+    padding: 2px;
+    background-color: #ffff;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+
+}
+ 
+.show_more{
+    background: #0061DF;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    width: 250px;
+    height: 44px;
+    margin: 12px 12px;
+    border-radius: 3px 10px 3px 10px;
+    border: 0;
+} 
+
+select{
+    border: none;  
+}
+.option{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+border: none;
+}
+.p{
+    font-family: 'Montserrat';
+    color: black !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.h6{
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 776px) {
+    .card{
+        width: 100%;
+    }
+    .xxx{
+        display: block !important;
+    }
+    .h6{
+        margin-bottom: 0;
+    }
+    h1{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+}
+@media (min-width: 776px) and (max-width: 1000px) {
+    .card{
+        width: 48%;
+    }
+}
+@media (min-width: 1000px) and (max-width:1050px){
+   span{
+       font-size: 12px;
+       line-height: 12px;
+       font-weight: 400;
+   }
+    
+}
+@media (min-width: 1050px) and (max-width:1200px){
+    span{
+        font-size: 13px;
+        line-height: 14px;
+        font-weight: 400;
+    }
+
+}
+
+

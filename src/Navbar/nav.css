@@ -1,0 +1,78 @@
+@media (max-width:500px){
+    .header{
+        width: 100%;
+        height: 40px;
+    }
+    .house{
+        width: 14px !important;
+        height: 18px !important;
+       margin:30px 0px 110px 16px !important
+    }
+    .h_3{
+        font-size: 10px !important;
+        line-height: 10px;
+    }
+    .houzing{
+        font-size: 10px !important;
+        bottom: 0;
+        margin-left: 15px;
+        padding-top: 30px !important;
+    }
+    .login{
+     width: 50px !important;
+    height: 35px !important;
+    margin: 25px 60px 5px 0px !important;
+    }
+}
+
+.header{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background: #0D263B;
+    justify-content: space-around;
+}
+.house{
+    top: 0;
+    width: 35px;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+.houzing{
+    font-size: 18px;
+    padding-top: 20px;
+    color: #ffff;
+    margin-left: 15px;
+}
+.h_3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #ffff;
+margin:30px 30px;
+}
+.login{
+    font-family: 'Montserrat';
+    margin: 22px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #ffff;
+    background: #0D263B;
+    width: 120px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px 4px 6px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
